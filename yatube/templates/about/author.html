@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Об авторе проекта{% endblock %}
+{% block content %}
+{% load static %}
+<h1>Привет, я Никита</h1>
+<p>
+  Тут я возможно размещу информацию о себе, а может и нет, пока тут просто котик
+  <br>
+  Если вам вдруг будет интересно, то вот
+  <a href='https://github.com/Nikita3677'>
+     ссылка
+  </a>
+  на мой github
+  <center> <img src={% static "img/about/kot.png" %} style="width:500px;height:440px;"> <center/>
+  <br/>
+</p>
+{% endblock %} 
